@@ -17,7 +17,9 @@ Sadrzaj:
 
 <ul>
 {% for chapter in site.chapters %}
-  <li>{{ chapter.title }}</li>
+  <li>
+    <a href="#{{ chapter.title }}">{{ chapter.title }}</a>
+  </li>
 {% endfor %}
 </ul>
 
@@ -28,7 +30,7 @@ Sadrzaj:
 
 {% for chapter in site.chapters %}
 
-<div class='chapter'>
+<div class='chapter' id="{{ chapter.title }}">
   <h2>{{ chapter.title }}</h2>
 
   {{ chapter.content }}
@@ -37,5 +39,5 @@ Sadrzaj:
 {% endfor %}
 
 <br/>
-<a href="http://dankokozar.com/" target="_blank">&copy; 2016 by Danko Kozar</a>
+<a href="http://dankokozar.com/" target="_blank">&copy; 2016-2019 by Danko Kozar</a>
 <br/><br/>
