@@ -1,0 +1,29 @@
+{
+  "name": "rezident",
+  "version": "1.1.0",
+  "description": "Objasnjenje oporezivanja rada u inozemstvu od strane hrvatske Porezne uprave",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkozar/rezident.git"
+  },
+  "keywords": [
+    "porez",
+    "tax",
+    "hrvatska",
+    "porezna",
+    "uprava",
+    "rad",
+    "u",
+    "inozemstvu"
+  ],
+  "author": "Danko Kozar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkozar/rezident/issues"
+  },
+  "homepage": "https://github.com/dkozar/rezident#readme"
+}
